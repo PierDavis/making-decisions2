@@ -32,9 +32,9 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 */
 
 //Code Here
-for (let i=0; i <family.length; i++){
-  family[i]+=1
-} console.log([i])
+let index = 0
+for (let i=0; i <family.length; i++)
+console.log(family[index++])
 
 
 ////////// PROBLEM 4 //////////
@@ -50,7 +50,8 @@ let evensArr = []
 
 //Code Here
 
-
+for (let i = 0; i <nums.length; i+2)
+console.log([])
 
 ////////// PROBLEM 5 //////////
 
@@ -59,7 +60,9 @@ var score = 74
 // Do not edit the code above.
 
 /*
-  Determine if the letter grade of the given variable 'score'. If the variable is a 90 or above, console log an 'A', between 80 and 89, console log a 'B', between 70 and 79, 'C', between 60 and 69, 'D', and anything below 60 should console log an 'F'.
+  Determine if the letter grade of the given variable 'score'. 
+  If the variable is a 90 or above, console log an 'A', between 80 and 89, console log a 'B', between 70 and 79, 'C', between 60 and 69, 'D', 
+  and anything below 60 should console log an 'F'.
 */
 
 //Code Here
